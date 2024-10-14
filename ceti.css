@@ -8,7 +8,7 @@ body {
     width: 100vw; /*(tamanho vertical body)*/
     height: 100vh; /*(tamanho altura vertical body)*/
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif; /*estilo da fonte*/
-    background-image: url('Fundo.jpg'); /*define o fundo*/
+    background-image: url('./Fundo.jpg'); /*define o fundo*/
 	background-repeat: repeat; /*define o fundo como mosaico ou azulejo (repetição e preenchimento)*/
 }
 
