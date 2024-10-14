@@ -116,7 +116,7 @@ header h1 {
  }
  @font-face{
     font-family: 'PlaypenSans';
-    src: url('PlaypenSans-VariableFont_wght.ttf'); /*fonte localização*/
+    src: url('./PlaypenSans-VariableFont_wght.ttf'); /*fonte localização*/
  }
  .img2-button { /*segunda imagem*/
     position: absolute;
@@ -132,7 +132,7 @@ header h1 {
 
  @font-face{
     font-family: 'NewAmsterdam';
-    src: url('NewAmsterdam-Regular.ttf'); /*fonte localização*/
+    src: url('./NewAmsterdam-Regular.ttf'); /*fonte localização*/
  }
 
 .whatsapp-button { /*butãum do travazapi*/
@@ -215,7 +215,7 @@ footer { /*(corrigido) para visualização desktop*/
  }
  @font-face{
     font-family: 'PlaypenSans';
-    src: url('PlaypenSans-VariableFont_wght.ttf'); /*fonte localização*/
+    src: url('./PlaypenSans-VariableFont_wght.ttf'); /*fonte localização*/
  }
  .img2-button { /*segunda imagem*/
     position: absolute;
@@ -232,7 +232,7 @@ footer { /*(corrigido) para visualização desktop*/
 
  @font-face{
     font-family: 'NewAmsterdam';
-    src: url('NewAmsterdam-Regular.ttf'); /*fonte localização*/
+    src: url('./NewAmsterdam-Regular.ttf'); /*fonte localização*/
  }
 
 .whatsapp-button { /*butãum do travazapi*/
