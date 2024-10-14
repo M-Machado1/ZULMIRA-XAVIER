@@ -8,7 +8,7 @@ body {
     width: 100vw; /*(tamanho vertical body)*/
     height: 100vh; /*(tamanho altura vertical body)*/
     font-family: Segoe UI, Tahoma, Geneva, Verdana, sans-serif; /*estilo da fonte*/
-    background-image: url('../CETI Zulmira Xavier_files/Fundo.jpg'); /*define o fundo*/
+    background-image: url('Fundo.jpg'); /*define o fundo*/
 	background-repeat: repeat; /*define o fundo como mosaico ou azulejo (repetição e preenchimento)*/
 }
 
@@ -22,7 +22,7 @@ body > div{
 header {
     width: 100%; /*tamanho em 100%*/
     margin: auto; /*margens automáticas*/
-    background-image: url('../CETI Zulmira Xavier_files/topo.jpg'); /*define o topo (esse é o novo local da imagem) */ 
+    background-image: url('topo.jpg'); /*define o topo (esse é o novo local da imagem) */ 
     box-shadow: 5px 5px 15px #333; /*caixinha de efeito onde a imagem fica (tamanho, largura, altura em pixels, cor de fundo dela*/
     background-size: cover; /*tamaho do fundo, cobrir*/
     background-position: center; /* posição da imagem de fundo ao centro*/
