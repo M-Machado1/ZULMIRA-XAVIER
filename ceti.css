@@ -180,12 +180,12 @@ footer { /*(corrigido) para visualização desktop*/
 }
 
 /*Modal*/
-.esconder{
-    display: none;
-}
 .modal-container{
     position: absolute;
     display: block;
+}
+.esconder{
+    display: none;
 }
 /*alinhamento quando resolução máxima do display for menor que (responsividade, para dispositivos móveis)*/
 
