@@ -184,6 +184,7 @@ footer { /*(corrigido) para visualização desktop*/
     display: none;
 }
 .mostar{
+    position: absolute;
     display: block;
 }
 /*alinhamento quando resolução máxima do display for menor que (responsividade, para dispositivos móveis)*/
