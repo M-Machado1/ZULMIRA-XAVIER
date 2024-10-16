@@ -182,7 +182,7 @@ footer { /*(corrigido) para visualização desktop*/
 /*Modal*/
 .modal-container{
     position: absolute;
-    display: block;
+    /* display: block; */
 }
 .esconder{
     display: none;
