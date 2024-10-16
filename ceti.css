@@ -180,10 +180,10 @@ footer { /*(corrigido) para visualização desktop*/
 }
 
 /*Modal*/
-.modal-container{
+.esconder{
     display: none;
 }
-.mostar{
+.modal-container{
     position: absolute;
     display: block;
 }
