@@ -1,15 +1,17 @@
-const modal = document.getElementById('modal-container')
-modal.addEventListener('click', (e) => {
-    openModal()
+const modalEventos = document.querySelector('#btnEventos')
+modalEventos.addEventListener('click', () => {
+    openModal('eventos')
 })
 
-function openModal(){
+function openModal(alvo){
+    const modal = document.querySelector(`#modal-container-${alvo}`)
+
     modal.classList.add('mostrar')
 
     modal.addEventListener('click', (e) =>{
-        if (e.target.id == 'modal-container' || e.target.id == "fechar"){
+        if (e.target.id == `modal-container-${alvo}` || e.target.id == "fechar"){
             modal.classList.remove('mostrar')
-            localStorage.fechaModal = 'modal-container'
+            localStorage.fechaModal = `modal-container-${alvo}`
         }
     })
 }
