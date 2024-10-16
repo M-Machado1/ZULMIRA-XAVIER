@@ -189,7 +189,7 @@ footer { /*(corrigido) para visualização desktop*/
 }
 /*alinhamento quando resolução máxima do display for menor que (responsividade, para dispositivos móveis)*/
 
-@media screen and (max-width: 1024px) { /*tela de dispositivo e (tamanho-máximo em pixels (resolução vertical))*/
+@media screen and (max-width: 784px) { /*tela de dispositivo e (tamanho-máximo em pixels (resolução vertical))*/
     .img{
         flex-direction: column; /*direção da exibição: Linha*/
         align-items: center;
