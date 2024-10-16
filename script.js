@@ -6,11 +6,11 @@ modalEventos.addEventListener('click', () => {
 function openModal(alvo){
     const modal = document.querySelector(`#modal-container-${alvo}`)
 
-    modal.classList.add('esconder')
+    modal.classList.remove('esconder')
 
     modal.addEventListener('click', (e) =>{
         if (e.target.id == `modal-container-${alvo}` || e.target.id == "fechar"){
-            modal.classList.remove('esconder')
+            modal.classList.add('esconder')
             localStorage.fechaModal = `modal-container-${alvo}`
         }
     })
