@@ -1,5 +1,9 @@
+const modal = document.getElementById('modal-container')
+modal.addEventListener('click', (e) => {
+    openModal()
+})
+
 function openModal(){
-    const modal = document.getElementById('modal-container')
     modal.classList.add('mostrar')
 
     modal.addEventListener('click', (e) =>{
