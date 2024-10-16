@@ -178,105 +178,112 @@ footer { /*(corrigido) para visualização desktop*/
     top: 15px; /*corrigido*/
 	bottom: 100%; /*corrigido*/
 }
+
+/*Modal*/
+.modal-container{
+    display: none;
+}
+.mostar{
+    display: block;
+}
 /*alinhamento quando resolução máxima do display for menor que (responsividade, para dispositivos móveis)*/
 
 @media screen and (max-width: 784px) { /*tela de dispositivo e (tamanho-máximo em pixels (resolução vertical))*/
-    
-.img{
-	flex-direction: column; /*direção da exibição: Linha*/
-	align-items: center;
-    max-width: 100%; /*tamanho máximo, em %*/
-    height: auto; /*autura, altumático*/
-    position: relative; /*posição, relativa*/
-    top: 0; /*topo, margem zero pixels*/
-    margin: 10% 50%; /*margem, zero pixes e 210 pixels*/
-	padding: auto;
-    display: flex; /*exibição, flexivel*/
-    bottom: 15px;
-    gap: 160px; /*lacuna, 160 pixels*/
-}
+    .img{
+        flex-direction: column; /*direção da exibição: Linha*/
+        align-items: center;
+        max-width: 100%; /*tamanho máximo, em %*/
+        height: auto; /*autura, altumático*/
+        position: relative; /*posição, relativa*/
+        top: 0; /*topo, margem zero pixels*/
+        margin: 10% 50%; /*margem, zero pixes e 210 pixels*/
+        padding: auto;
+        display: flex; /*exibição, flexivel*/
+        bottom: 15px;
+        gap: 160px; /*lacuna, 160 pixels*/
+    }
 
 
-.img1-button { /*primeira imagem*/
-    position: absolute;
-	display: column;
-    top: 125px; 
-    left: -60px;
-    color: #ffffff; /* Precisa escolher uma cor para a fonte*/
-    font-size: 16px;  
-    font-family: 'PlaypenSans';         
-    font-weight: bold;
- }
+    .img1-button { /*primeira imagem*/
+        position: absolute;
+        display: column;
+        top: 125px; 
+        left: -60px;
+        color: #ffffff; /* Precisa escolher uma cor para a fonte*/
+        font-size: 16px;  
+        font-family: 'PlaypenSans';         
+        font-weight: bold;
+    }
 
- a > img {
-    background-color: #fff;
-    border-radius: 35%;
-    box-shadow: 5px 5px 15px #333;
- }
- @font-face{
-    font-family: 'PlaypenSans';
-    src: url('./PlaypenSans-VariableFont_wght.ttf'); /*fonte localização*/
- }
- .img2-button { /*segunda imagem*/
-    position: absolute;
-	display: column;
-    top: 680px; 
-    left: -120px;  
-    width: 10rem;
-    color: #313131; /* Precisa escolher uma cor para a fonte*/
-    padding: 20px; 
-    font-size: 20px; 
-    font-family: 'NewAmsterdam';
-    font-weight: bold;
- }
+    a > img {
+        background-color: #fff;
+        border-radius: 35%;
+        box-shadow: 5px 5px 15px #333;
+    }
+    @font-face{
+        font-family: 'PlaypenSans';
+        src: url('./PlaypenSans-VariableFont_wght.ttf'); /*fonte localização*/
+    }
+    .img2-button { /*segunda imagem*/
+        position: absolute;
+        display: column;
+        top: 680px; 
+        left: -120px;  
+        width: 10rem;
+        color: #313131; /* Precisa escolher uma cor para a fonte*/
+        padding: 20px; 
+        font-size: 20px; 
+        font-family: 'NewAmsterdam';
+        font-weight: bold;
+    }
 
- @font-face{
-    font-family: 'NewAmsterdam';
-    src: url('./NewAmsterdam-Regular.ttf'); /*fonte localização*/
- }
+    @font-face{
+        font-family: 'NewAmsterdam';
+        src: url('./NewAmsterdam-Regular.ttf'); /*fonte localização*/
+    }
 
-.whatsapp-button { /*butãum do travazapi*/
-    top: 822.6px; /*posição para cima (alinhamento em pixels)*/
-    left: -105.1px; /*posição para a esquerda (alinhamento em pixels)*/
-    position: absolute; /*posição, absoluta*/
-    bottom: 20px; /*posição para baixo (alinhamento em pixels)*/
-    right: 20px; /*posição para a direita (alinhamento em pixels)*/
-    z-index: 1000; /*eixo-altura, indice, valor posição*/
-    height: auto; /*altura, automático*/
-    border-radius: 50%; /*raio da borda, 50% visualização geral*/
+    .whatsapp-button { /*butãum do travazapi*/
+        top: 822.6px; /*posição para cima (alinhamento em pixels)*/
+        left: -105.1px; /*posição para a esquerda (alinhamento em pixels)*/
+        position: absolute; /*posição, absoluta*/
+        bottom: 20px; /*posição para baixo (alinhamento em pixels)*/
+        right: 20px; /*posição para a direita (alinhamento em pixels)*/
+        z-index: 1000; /*eixo-altura, indice, valor posição*/
+        height: auto; /*altura, automático*/
+        border-radius: 50%; /*raio da borda, 50% visualização geral*/
 
-}
-.instagram-button { /*butaum do instagramis*/
-    top: 822.6px; /*posição para cima (alinhamento em pixels)*/
-    left: 0.1px; /*posição para a esquerda (alinhamento em pixels)*/
-    position: absolute; /*posição, absoluta*/
-    bottom: 20px; /*posição para baixo, (alinhamento em pixels)*/
-    right: 20px; /*posição para a direita (alinhamento em pixels)*/
-    z-index: 1000; /*eixo-altura, indice, valor posição*/
-    height: auto; /*altura, automático*/
-    border-radius: 50%; /*raio da borda, 50% visualização geral*/
-}
+    }
+    .instagram-button { /*butaum do instagramis*/
+        top: 822.6px; /*posição para cima (alinhamento em pixels)*/
+        left: 0.1px; /*posição para a esquerda (alinhamento em pixels)*/
+        position: absolute; /*posição, absoluta*/
+        bottom: 20px; /*posição para baixo, (alinhamento em pixels)*/
+        right: 20px; /*posição para a direita (alinhamento em pixels)*/
+        z-index: 1000; /*eixo-altura, indice, valor posição*/
+        height: auto; /*altura, automático*/
+        border-radius: 50%; /*raio da borda, 50% visualização geral*/
+    }
 
-#section_img{ /*<div id="section_img">*/
-    display: flex; /*exibir, flexivel*/
-    flex-direction: column; /*direção de exibição, coluna*/
-}
+    #section_img{ /*<div id="section_img">*/
+        display: flex; /*exibir, flexivel*/
+        flex-direction: column; /*direção de exibição, coluna*/
+    }
 
-#img_section_img{ /*<div id="img_section_img">*/
-    display: flex; /*exibir, flexivel*/
-    flex-direction: column; /*direção de exibição, coluna*/
-	
+    #img_section_img{ /*<div id="img_section_img">*/
+        display: flex; /*exibir, flexivel*/
+        flex-direction: column; /*direção de exibição, coluna*/
+    }
     header > h1 {
         font-size: 2rem;
     }
-	footer { /*somente para visualização responsiva (tela celular ou tablet)*/
-    width: 100%;
-    position: relative;
-    background-color: #101f35;
-    color: #fff;
-    text-align: center;
-    padding: 9px;
-    top: 15px;
-	bottom: auto;
-}
+    footer { /*somente para visualização responsiva (tela celular ou tablet)*/
+        width: 100%;
+        position: relative;
+        background-color: #101f35;
+        color: #fff;
+        text-align: center;
+        padding: 9px;
+        top: 15px;
+        bottom: auto;
+    }
 }
