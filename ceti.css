@@ -187,9 +187,12 @@ footer { /*(corrigido) para visualização desktop*/
     overflow: hidden;
     top: 2rem;
     left: 2rem;
-    background-color: #ABD17A;
+    /* background-color: #ABD17A; */
+    background-image: url(./Fundo.jpg);
+    background-repeat: no-repeat;
     border-style: solid;
-    border-top-right-radius: 25%;
+    border-color: #ffeb3b;
+    border-radius: 25%;
 }
 .esconder{
     display: none;
